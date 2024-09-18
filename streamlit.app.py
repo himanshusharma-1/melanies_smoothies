@@ -3,7 +3,7 @@ import requests
 from snowflake.snowpark.functions import col
  
 # Write directly to the app
-st.title("My Parents New Healthy Diner")
+st.title(":cup_with_straw: Customize your smoothie :cup_with_straw:")
 st.write(
     """Choose the fruits you want in your custom Smoothie!.
     """
