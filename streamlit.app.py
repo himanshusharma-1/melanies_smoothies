@@ -5,8 +5,7 @@ from snowflake.snowpark.functions import col
 # Write directly to the app
 st.title(":cup_with_straw: Custom Smoothie Orders :cup_with_straw:")
 st.write(
-    """Choose the fruits you want in your custom Smoothie!."""
-)
+    """Choose the fruits you want in your custom Smoothie!.""")
 name_on_order = st.text_input('Name on smoothie:')
 st.write('The name on your Smoothie will be:', name_on_order)
 # Get session and fetch data
